@@ -2,7 +2,6 @@ var tabStack = [];
 var maxHistoryStack = 20;
 
 
-
 function openLastClosedTab()
 {
 	var url = tabStack.pop();
